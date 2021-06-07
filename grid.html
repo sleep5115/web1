@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <title>
-
-    </title>
+    <meta charset = "UTF-8">
+    <title></title>
+    <style>
+        #grid {
+            border: 5px solid pink;
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        div {
+            border : 5px solid gray;
+        }
+    </style>
 </head>
 <body>
-    <span>NAVIGATION</span> 
-    <span>RTICLE</span>
+    <div id = "grid">
+        <div>NAVIGATION</div> 
+        <div>You can only specify the explicit or the implicit grid properties in a single grid declaration. The sub-properties you don’t specify are set to their initial value, as normal for shorthands. Also, the gutter properties are NOT reset by this shorthand.</div>
+    </div>
 </body>
 </html>
 
 <!-- ctrl + shift + L = 다중선택 -->
 <!-- ctrl + alt + 위아래 = 다중커서 -->
 <!-- alt + 좌클릭 = 다중커서 -->
+
+<!-- https://caniuse.com/ 명령어 채택률 사이트 -->
